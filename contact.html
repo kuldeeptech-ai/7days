@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | 7-DAY'S RESTAURANT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="preloader" class="preloader"><div class="loader-ring"></div><p class="loader-text">7-DAY'S RESTAURANT</p></div>
+  <nav id="navbar" class="navbar glass">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">7-DAY'S <span class="gold">RESTAURANT</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+        <li><a href="menu.html" class="btn btn-primary nav-btn">Order Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="hero mini-hero"><div class="hero-overlay"></div>
+    <div class="hero-content container reveal"><h1>Get in <span class="gold">Touch</span></h1><p>We'd love to hear from you. Visit us or send a message.</p></div>
+  </header>
+
+  <section id="contact-grid" class="container split reveal">
+    <div class="form-wrapper glass">
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" required placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" required placeholder="email@example.com">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" rows="4" required placeholder="How can we assist you?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-width">Send Message</button>
+      </form>
+    </div>
+    <div class="info-wrapper">
+      <div class="glass info-card">
+        <i class="fas fa-map-marker-alt gold"></i>
+        <h3>Location</h3>
+        <p>Rajedihaan, Uttar Pradesh 272152</p>
+      </div>
+      <div class="glass info-card">
+        <i class="fas fa-clock gold"></i>
+        <h3>Business Hours</h3>
+        <p>Open Daily: 10:00 AM – 10:00 PM</p>
+      </div>
+      <div class="glass info-card">
+        <i class="fas fa-phone-alt gold"></i>
+        <h3>Contact</h3>
+        <p>Call/WhatsApp: <a href="tel:+918052885895" class="gold">8052885895</a></p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        </div>
+      </div>
+      <div class="map-container glass">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d141036.2575653375!2d83.08520345!3d26.46787215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3992e73141e4b6f5%3A0x6a88d3b5b04831e9!2sGorakhpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer glass"><div class="container footer-bottom"><p>© <span id="year"></span> 7-DAY'S RESTAURANT. All Rights Reserved.</p></div></footer>
+  <a href="https://wa.me/918052885895" target="_blank" class="wa-float" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  <script src="js/script.js" defer></script>
+</body>
+</html>

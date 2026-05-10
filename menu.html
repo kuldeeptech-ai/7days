@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu | 7-DAY'S RESTAURANT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="preloader" class="preloader"><div class="loader-ring"></div><p class="loader-text">7-DAY'S RESTAURANT</p></div>
+  <nav id="navbar" class="navbar glass">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">7-DAY'S <span class="gold">RESTAURANT</span></a>
+      <button class="nav-toggle" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="https://wa.me/918052885895" class="btn btn-primary nav-btn">Order Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main class="container page-header glass">
+    <h1>Our <span class="gold">Menu</span></h1>
+    <p>Crafted with premium ingredients, served fresh.</p>
+  </main>
+
+  <section id="menu-controls" class="container reveal">
+    <div class="search-box">
+      <i class="fas fa-search"></i>
+      <input type="text" id="menu-search" placeholder="Search dishes...">
+    </div>
+    <div class="filters" id="menu-filters">
+      <button class="filter-btn active" data-cat="all">All</button>
+      <button class="filter-btn" data-cat="noodles">Noodles</button>
+      <button class="filter-btn" data-cat="burgers">Burgers</button>
+      <button class="filter-btn" data-cat="fries">Fries & Starters</button>
+      <button class="filter-btn" data-cat="momos">Momos</button>
+    </div>
+  </section>
+
+  <section id="menu-grid" class="container grid-3 reveal">
+    <!-- Items populated by JS, but static fallback provided for SEO -->
+    <!-- JS will render these dynamically -->
+  </section>
+
+  <footer class="footer glass">
+    <div class="container footer-bottom"><p>© <span id="year"></span> 7-DAY'S RESTAURANT. All Rights Reserved.</p></div>
+  </footer>
+  <a href="https://wa.me/918052885895" target="_blank" class="wa-float" aria-label="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+  <script src="js/script.js" defer></script>
+</body>
+</html>
